@@ -1,0 +1,47 @@
+
+a = ["Lithuania", "Luxembourg","the former Yugoslav Republic of Macedonia", "Malta", 'Republic of Moldova', "Monaco", "Montenegro", "Norway",
+"Netherlands", "Poland", "Portugal", "United Kingdom", "Romania", "Czech Republic", "Russia", "San Marino", "Serbia", "Slovakia",
+"Slovenia", "Spain", "Sweden", "Switzerland", "Turkey", "Ukraine", "Hungary"]
+
+
+b= ['Antigua and Barbuda', 'Algeria', 'Azerbaijan', 'Samoa', 'Argentina', 'Australia', 'Bahrain', 'Barbados', 
+'Bermuda','Bahamas', 'Bangladesh', 'Belize', 'Bolivia','Burma', 'Benin', 'Solomon Islands', 'Brazil',
+ 'Brunei Darussalam','Canada', 'Cambodia', 'Sri Lanka', 'Congo','Democratic Republic of the Congo', 'Burundi',
+  'China', 'Afghanistan','Bhutan', 'Chile', 'Cayman Islands', 'Cameroon', 'Chad', 'Comoros', 'Colombia','Costa Rica',
+   'Central African Republic', 'Cuba', 'Cape Verde','Cook Islands',  'Djibouti', 'Dominica','Dominican Republic',
+    'Ecuador', 'Egypt',  'Equatorial Guinea','Eritrea', 'El Salvador', 'Ethiopia', 'Austria', 'Czech Republic',
+    'French Guiana', 'Fiji', 'Falkland Islands (Malvinas)','Micronesia, Federated States of', 'French Polynesia', 
+    'Gambia','Gabon',  'Ghana', 'Grenada', 'Greenland', 'Guam' ,'Guatemala', 'Guinea', 'Guyana', 'Haiti', 'Honduras',
+     'Hungary', 'India', 'Iran (Islamic Republic of)', 'Israel' ,"Cote d'Ivoire" 'Iraq', 'Japan', 'Jamaica', 'Jordan',
+      'Kenya', 'Kyrgyzstan',"Korea, Democratic People's Republic of",'Kiribati', 'Korea, Republic of','Kuwait', 'Kazakhstan',
+       "Lao People's Democratic Republic" 'Lebanon','Belarus', 'Lithuania', 'Liberia', 'Slovakia' ,'Libyan Arab Jamahiriya',
+        'Madagascar', 'Martinique', 'Mongolia','Montserrat', 'The former Yugoslav Republic of Macedonia', 'Mali', 'Morocco',
+        'Mauritius', 'Mauritania', 'Malta', 'Oman', 'Maldives', 'Mexico', 'Malaysia','Mozambique', 'Malawi', 'New Caledonia',
+         'Niue', 'Niger', 'Aruba', 'Anguilla','Hong Kong', 'Northern Mariana Islands', 'Faroe Islands','Gibraltar', 'Isle of Man',
+          'Luxembourg', 'Macau', 'Monaco','Palestine', 'Montenegro', 'Mayotte', 'Åland Islands', 'Norfolk Island',
+          'Cocos (Keeling) Islands','Bouvet Island','French Southern and Antarctic Lands', 'Heard Island and McDonald Islands',
+          'British Indian Ocean Territory', 'Christmas Island','United States Minor Outlying Islands', 'Vanuatu', 'Nigeria',
+           'Netherlands','Norway', 'Nepal', 'Nauru', 'Suriname', 'Nicaragua', 'New Zealand', 'Paraguay','Peru', 'Pakistan',
+            'Poland', 'Panama', 'Portugal', 'Papua New Guinea','Guinea-Bissau', 'Qatar', 'Reunion', 'Romania',
+             'Republic of Moldova','Philippines', 'Puerto Rico', 'Russia', 'Rwanda', 'Saudi Arabia','Saint Kitts and Nevis',
+              'Seychelles', 'South Africa', 'Lesotho', 'Botswana','Senegal', 'Slovenia', 'Sierra Leone', 'Singapore', 'Somalia',
+               'Spain','Saint Lucia', 'Sudan', 'Sweden', 'Syrian Arab Republic', 'Switzerland','Trinidad and Tobago', 'Thailand',
+                'Tajikistan', 'Tokelau', 'Tonga', 'Togo','Sao Tome and Principe', 'Tunisia', 'Turkey', 'Tuvalu', 'Turkmenistan',
+                'United Republic of Tanzania', 'Uganda', 'United Kingdom', 'Ukraine','United States', 'Burkina Faso', 'Uruguay',
+                 'Uzbekistan','Saint Vincent and the Grenadines', 'Venezuela', 'British Virgin Islands','Viet Nam', 
+                 'United States Virgin Islands', 'Namibia','Wallis and Futuna Islands', 'Samoa', 'Swaziland', 
+                 'Yemen', 'Zambia','Zimbabwe', 'Indonesia', 'Guadeloupe', 'Netherlands Antilles','United Arab Emirates',
+                  'Timor-Leste', 'Pitcairn Islands', 'Palau','Marshall Islands', 'Saint Pierre and Miquelon', 'Saint Helena',
+                  'San Marino', 'Turks and Caicos Islands', 'Western Sahara', 'Serbia','Holy See (Vatican City)',
+                   'Svalbard', 'Saint Martin', 'Saint Barthelemy','Guernsey', 'Jersey', 'South Georgia South Sandwich Islands', 
+                   'Taiwan']
+print(len(b))
+mancanti = []
+for i in a:
+    if i in b:
+        b.remove(i)
+        print(i)
+    else:
+        mancanti.append(i)
+print(len(b))
+print(b)
